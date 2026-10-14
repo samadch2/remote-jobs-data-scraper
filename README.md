@@ -7,8 +7,8 @@ A Python web scraping project that extracts job listing information from a demo 
 - Collects available posting details and application links
 - Organizes data into structured tables
 - Exports results to Excel
-- 
-![Job Listings Preview](Job_data sheet.png)
+
+![Job Listings Preview](<Job_data sheet.png>)
 
 
 ## Technologies

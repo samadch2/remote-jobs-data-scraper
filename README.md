@@ -1,38 +1,43 @@
-#  Remote Job Portal Data Scraper
+# Remote Jobs Data Scraper
 
-A Python-powered automated web scraping tool engineered to extract live remote job listings, company credentials, locations, and direct application links, exporting clean datasets into professionally styled Excel spreadsheets.
+A Python web scraping project that extracts job listing information from a demo website and organizes the data into an Excel file.
 
----
-
-## Dataset Preview (`job_listings.png`)
-A visual preview of the exported job postings dataset:
-
+## Features
+- Extracts job titles, company names, and locations
+- Collects available posting details and application links
+- Organizes data into structured tables
+- Exports results to Excel
+- 
 ![Job Listings Preview](Job_data sheet.png)
 
----
 
-##  Key Features & Extracted Data Points
-* **Job ID:** Unique tracking code generated for inventory indexing.
-* **Job Title:** Designation names (e.g., Senior Python Developer, Data Scientist).
-* **Company Name:** Hiring organization or agency.
-* **Location:** Remote / City location attributes.
-* **Date Posted:** Listing recency verification.
-* **Apply Link:** Direct URL redirection for job applications.
+## Technologies
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+- OpenPyXL
 
----
+## Installation
 
-##  Tech Stack
-* **Python** (Core Scripting)
-* **Requests** (HTTP Requests)
-* **BeautifulSoup4** (DOM Parsing & Data Scraping)
-* **Pandas** (Data Transformation)
-* **OpenPyXL** (Excel Styling & Output Generation)
+```bash
+pip install requests beautifulsoup4 pandas openpyxl
+```
 
----
+## Run the Script
 
-##  How to Run
+```bash
+python job_scraper.py
+```
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/samadch2/remote-jobs-data-scraper.git](https://github.com/samadch2/remote-jobs-data-scraper.git)
-   cd remote-jobs-data-scraper
+## Output
+Extracted job listing data is saved to an Excel file, depending on the script configuration.
+
+## Note
+This project uses demo job listings for educational purposes. It does not verify whether jobs are currently open.
+
+## Author
+**Abdul Samad**
+
+[GitHub Profile](https://github.com/samadch2)
+
